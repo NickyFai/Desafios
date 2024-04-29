@@ -1,0 +1,153 @@
+body{
+    /*background: #ffffff;*/
+    text-align: center;
+    color: #000f08;
+    margin: 0; /*padding, bordesy márgenes por defecto*/
+    font-family: "Open Sans", sans-serif;
+}
+
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+    /*#ffffff y white son lo mismo*/
+
+/*h2{
+    text-align: center;
+    color: blue;
+}
+(PP)*/
+
+/*.verde{color: green;}
+
+(PP) este comando fue para practicar*/
+
+/*.centrado{
+    text-align: center;
+}
+(PP)*/
+
+/*#subtitulo{
+    text-align: right;
+    color: white;
+}
+(PP)*/
+
+.oscuro{
+    background: #000f08;
+    color: #ffffff;
+}
+
+.sweet-brown{
+    background: #a4452c;
+    text-align: left;
+    color: #ffffff;
+    padding: 50px;
+    white-space: nowrap; /*para que no se sobrepongan*/
+}
+
+.oscuro a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/*es el oscuro + a(los links) para que no sean azules y subrayados*/
+
+.hero-section{
+    text-align: right;
+    background-image: url(../img/bg-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    /*text-shadow: 0px 3px 6px #00000080;
+    padding: 50px 50px 250px 50px;*/
+    /*los pasaremos a proporcional al tamaño de letra con otros valores dados por la guía*/
+    text-shadow: 0.125em 0.25em 0.125em #00000080;
+    /*padding: 3.125rem 3.125rem 6.25rem 3.125rem;*/
+    padding: 5rem 5rem;
+    /*para poder modificar nuestro navegador*/
+}
+
+section, footer {margin-top: 75px;}
+
+footer {padding: 50px;}
+
+.charla-speaker, .charla-texto, .evento {
+    display: inline-block;
+}
+
+/*le damos 0 auto para que se centre hor, 0 arriba y abajo y auto der e izq*/
+.centrado{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.charla-speaker{
+    width: 25%;
+    vertical-align: middle;
+}
+
+.charla-texto{
+    width: 72.5%;
+    vertical-align: middle;
+    margin-left: 2.5%;
+    white-space: normal;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 3.75em; /*equivale al 375 tamaño padre que es 16, por lo tanto h1 es 60*/
+    margin-bottom: 0.25em; /*equivale al 25% de h1*/
+}
+
+h2{
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+h3{font-size: 2em;}
+
+h4{font-size: 1.75em;}
+
+h5{font-size: 1.25;}
+
+.subtitulo, h4, h5{font-weight: 400;}
+
+#ubicacion h2 {margin: 1em auto;}
+
+.sweet-brown h3, .sweet-brown h5 {margin-bottom: 0.5em;}
+
+#eventos h2{margin-bottom: 1em;}
+
+#eventos h3{margin: 1em auto;}
+
+nav{
+    text-align: left;
+    padding: 1.25rem 4rem;
+    position: fixed; /*se queda sup-izq aunque hagamos scroll*/
+    width: 100vw; /*ancho 100% pantalla*/
+}
+
+nav ul{list-style-type: none;}
+/*para no mostrar los marcadores de las listas*/
+
+nav ul li{
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+}
+
+.icono{width: 2rem;}
+
+.icono svg{fill: #ffffff;}
+
+.evento{
+    width: 30%;}
+
+.evento img{
+    top: 2129px;
+    left: 753px;
+    width: 90%;
+    height: 244px;
+    border-radius: 5px;    
+}

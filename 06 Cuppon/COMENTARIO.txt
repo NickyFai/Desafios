@@ -1,0 +1,3 @@
+DISCULPA
+Me di cuenta al final que tenía el index dentro del assets,
+al momento de tratar de cambiarlo, me desconfiguraba la página.

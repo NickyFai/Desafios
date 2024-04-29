@@ -1,0 +1,70 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/*BARRA NAVEGACIÓN*/
+.nav-pink {
+    background-color: #E83E8C;
+}
+
+.logo{
+    width: 132px;
+    margin-left: 10%;
+}
+
+.margen-derecha{
+    margin-right: 10%;
+}
+
+/*PRODUCTOS*/
+
+.letra-card-1{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.letra-card-2{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.letra-card-3{
+    font-size: 11px;
+    font-weight: 400;
+}
+
+/*PARTE PAGOS*/
+.icons-section {
+    background: #17A2B8;
+    color: white;
+    width: auto;
+}
+
+.pago {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+i {font-size: 55px;}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/*FOOTER*/
+footer {
+    background: #E83E8C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    width: auto;
+}
